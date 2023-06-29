@@ -2,9 +2,9 @@ variable "cluster_id" {
   type        = string
   description = "Group identifier."
 }
-variable "engine" {
+variable "engine_version" {
   type        = string
-  description = "Name of the cache engine to be used for this cache cluster."
+  description = "Version number of the cache engine to be used."
 }
 variable "node_type" {
   type        = string
